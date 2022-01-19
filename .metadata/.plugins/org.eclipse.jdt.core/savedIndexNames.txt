@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Danilo\Documents\Danilo\DIO\GFT\.metadata\.plugins\org.eclipse.jdt.core
+1509028300.index
+1865797976.index
+2375924588.index

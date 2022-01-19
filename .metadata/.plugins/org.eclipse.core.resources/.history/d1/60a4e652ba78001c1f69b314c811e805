@@ -1,0 +1,10 @@
+package DesafioBanco;
+
+public class ContaCorrente extends Conta{
+	@Override
+	public void imprimirExtrato() {
+		System.out.println("===Extrato Conta Corrente===");
+		System.out.print(String.format("Agencia: %d", super.agencia));
+	}
+	
+}

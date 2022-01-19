@@ -1,0 +1,20 @@
+package DesafioBanco;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Cliente danilo = new Cliente(47098382833f , "Danilo");
+		Cliente gabriel = new Cliente(1234567890f , "Danilo");
+		
+		Conta cc = new ContaCorrente(danilo);
+		Conta cp = new ContaPoupanca(gabriel);
+		
+		cc.depositar(500);
+		cc.transferir(100, cp);
+		
+		cc.imprimirExtrato();
+		cp.imprimirExtrato();
+		
+	}
+
+}

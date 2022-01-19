@@ -1,0 +1,16 @@
+package DesafioBanco;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Cliente danilo = new Cliente(47098382833, "Danilo");
+		
+		Conta cc = new ContaCorrente(danilo);
+		//Conta cp = new ContaPoupanca();
+		
+		cc.imprimirExtrato();
+		cp.imprimirExtrato();
+		
+	}
+
+}
