@@ -1,22 +1,23 @@
 package DesafioBanco;
 
 public class Cliente {
-	private String cpf;
-	private String nome;	
-	
-	public Cliente (String cpf,String nome) {
-		this.cpf = cpf;
-		this.nome = nome;
-	}
+    private String cpf;
+    private String nome;
 
-	public String getCpf() {
-		return cpf;
-	}
+    public Cliente(String cpf, String nome) {
+        this.cpf = cpf;
+        this.nome = nome;
+    }
 
-	public String getNome() {
-		return nome;
-	}
-	public String toString() {		
-		return "Titular: " + this.nome + ", CPF: " + this.cpf;
-	}	
+    public String getCpf() {
+        return cpf;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String toString() {
+        return "Titular: " + this.nome + ", CPF: " + this.cpf;
+    }
 }
