@@ -1,7 +1,7 @@
 package desafioPoo;
 
 public abstract class Conteudo {
-    public static final double  XP_PADRAO = 10;
+    public double xp = 10;
 
     private String titulo;
     private String descricao;
@@ -22,5 +22,9 @@ public abstract class Conteudo {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    public double getXP_PADRAO() {
+        return xp;
     }
 }
